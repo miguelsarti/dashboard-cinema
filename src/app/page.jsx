@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import Sidebar from "@/components/sidebar";
 import DashboardContent from "@/components/dashboardContent";
 import Footer from "@/components/footer";
+import SummaryCards from "@/components/summaryCards";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
 
       <main className={styles.dashboardContainer}>
       <Sidebar />
+      <SummaryCards />
       <DashboardContent />
       </main>
       
